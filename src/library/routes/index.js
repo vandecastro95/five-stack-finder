@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter, Route ,Switch} from 'react-router-dom';
-import BasePage from '../pages/mainPage/BasePage'
+import Header from '../components/Header/Header';
+import HomePage from '../pages/HomePage/HomePage';
 
 const AppRouter = () => (
     <BrowserRouter>
-    <div>
-        <Switch>
-            <Route path='/' component={BasePage} exact={true}/>
-        </Switch>
-    </div>
+                <Header />
+                <Switch>
+                    <Route path='/' component={HomePage} exact={true}/>
+                </Switch>
     </BrowserRouter>
 )
 

@@ -1,0 +1,6 @@
+html, body {
+    background: #1A1A1C;
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: 'Roboto', Arial, sans-serif;
+}
