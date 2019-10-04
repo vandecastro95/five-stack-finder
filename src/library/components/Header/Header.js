@@ -6,13 +6,12 @@ import Paper from '@material-ui/core/Paper';
 
 const styles = (theme) => ({
     root: {
-      backgroundColor: '#1A1A1C',
+      backgroundColor: '#121212',
       height: 'auto',
       paddingTop: '2px',
-      width: '100%'
     },
     container: {
-        width: '80%',
+        width: '90%',
         margin: 'auto',
         [theme.breakpoints.down('md')]: {
             width: '100%'
@@ -29,7 +28,8 @@ const styles = (theme) => ({
         display: 'flex',
     },
     Nav: {
-        margin: '0 10px'
+        margin: '0 10px',
+        paddingTop: '11px',
     }
   });
 

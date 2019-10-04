@@ -1,0 +1,140 @@
+export const playerData = {
+"tracked_until":"1572117866",
+"solo_competitive_rank":3373,
+"profile":{
+"account_id":187379213,
+"personaname":"Kingpin",
+"name":null,
+"plus":true,
+"cheese":0,
+"steamid":"76561198147644941",
+"avatar":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a1/a1c9da8a0fa55ca94d75317dedc19cbfcf5cc816.jpg",
+"avatarmedium":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a1/a1c9da8a0fa55ca94d75317dedc19cbfcf5cc816_medium.jpg",
+"avatarfull":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a1/a1c9da8a0fa55ca94d75317dedc19cbfcf5cc816_full.jpg",
+"profileurl":"https://steamcommunity.com/profiles/76561198147644941/",
+"last_login":"2019-09-26T19:01:58.447Z",
+"loccountrycode":null,
+"is_contributor":false
+},
+"competitive_rank":3789,
+"rank_tier":54,
+"mmr_estimate":{
+"estimate":3701
+},
+"leaderboard_rank":null
+}
+
+export const heroes = [
+    {
+    "hero_id":"14",
+    "last_played":1569522138,
+    "games":273,
+    "win":159,
+    "with_games":158,
+    "with_win":92,
+    "against_games":223,
+    "against_win":89
+    },
+    {
+    "hero_id":"105",
+    "last_played":1569464406,
+    "games":127,
+    "win":62,
+    "with_games":48,
+    "with_win":20,
+    "against_games":26,
+    "against_win":17
+    },
+    {
+    "hero_id":"86",
+    "last_played":1569525732,
+    "games":123,
+    "win":54,
+    "with_games":83,
+    "with_win":47,
+    "against_games":102,
+    "against_win":54
+    },
+    {
+    "hero_id":"9",
+    "last_played":1569442215,
+    "games":60,
+    "win":35,
+    "with_games":102,
+    "with_win":58,
+    "against_games":104,
+    "against_win":49
+    },
+    {
+    "hero_id":"21",
+    "last_played":1568257670,
+    "games":48,
+    "win":23,
+    "with_games":84,
+    "with_win":40,
+    "against_games":124,
+    "against_win":65
+    },
+    {
+    "hero_id":"51",
+    "last_played":1568932709,
+    "games":43,
+    "win":25,
+    "with_games":25,
+    "with_win":13,
+    "against_games":43,
+    "against_win":22
+    },
+]
+
+export const gameData = [
+    {
+    "account_id":187379213,
+    "match_id":3102712811,
+    "solo_competitive_rank":3615,
+    "competitive_rank":3964,
+    "time":"2017-04-07T04:52:43.213Z"
+    },
+    {
+    "account_id":187379213,
+    "match_id":3102755672,
+    "solo_competitive_rank":3566,
+    "competitive_rank":3964,
+    "time":"2017-04-07T05:47:39.984Z"
+    },
+    {
+    "account_id":187379213,
+    "match_id":3118800017,
+    "solo_competitive_rank":3591,
+    "competitive_rank":3964,
+    "time":"2017-04-15T04:24:06.076Z"
+    },
+    {
+    "account_id":187379213,
+    "match_id":3118942838,
+    "solo_competitive_rank":3591,
+    "competitive_rank":3964,
+    "time":"2017-04-15T05:52:53.009Z"
+    },
+    {
+    "account_id":187379213,
+    "match_id":3120986117,
+    "solo_competitive_rank":3616,
+    "competitive_rank":3941,
+    "time":"2017-04-16T03:26:03.638Z"
+    },
+    {
+    "account_id":187379213,
+    "match_id":3125056449,
+    "solo_competitive_rank":3616,
+    "competitive_rank":3941,
+    "time":"2017-04-18T04:42:08.775Z"
+    },
+    {
+    "account_id":187379213,
+    "match_id":3125106749,
+    "solo_competitive_rank":3616,
+    "competitive_rank":3941,
+    "time":"2017-04-18T05:25:10.925Z"
+    }
+]

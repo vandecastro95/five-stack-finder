@@ -1,32 +1,31 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper'
 import Typography from '@material-ui/core/Typography'
+import Box from '@material-ui/core/Box'
 
 const styles = (theme) => ({
   root: {
       background: '#CF6679',
-      height: '200px',
-      width: '80%',
-      margin: '0 auto',
-      position: 'relative'
+      height: '130px',
+  },
+  heroContainer: {
+    maxWidth: '950px',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: '0 auto',
+    padding: '32px 0 10px',
   },
   heroHeader: {
      color: '#000000',
      fontWeight: '500',
-     fontSize: '34px',
+     fontSize: '35px',
      lineHeight: '1.25',
-     padding: '32px 0 48px',
-     maxWidth: '950px',
-     position: 'absolute',
-     left: '32%',
-     top: '8%'
   },
   heroSub: {
-    position: 'absolute',
-    left: '33%',
-    top: '46%'
+      marginTop: '-10px'
   }
 });
 
@@ -34,13 +33,15 @@ const HomePage = props => {
   const { classes } = props;
 
   return (
-    <Paper square className={classes.root}>
-        <Typography variant="h2" gutterBottom className={classes.heroHeader}>
-            Find your Five Man Stack!
-        </Typography>
-        <Typography variant="body2" gutterBottom className={classes.heroSub}>
-            0 five stacks in your friend list - 0 people looking for role
-        </Typography>
+    <Paper elevation={10} square className={classes.root}>
+        <Box className={classes.heroContainer}>
+            <Typography variant="h2" gutterBottom className={classes.heroHeader}>
+                Find your Five Man Stack!
+            </Typography>
+            <Typography variant="body2" gutterBottom className={classes.heroSub}>
+                0 five stacks in your friend list - 0 people looking for role
+            </Typography>
+        </Box>
     </Paper>
   );
 };

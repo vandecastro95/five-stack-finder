@@ -2,11 +2,17 @@ import { createStore, compose, applyMiddleware } from 'redux';
 import { routerMiddleware } from 'connected-react-router';
 import { createBrowserHistory } from 'history';
 import rootReducer from './reducers';
-import {logger} from '../library/middleware/logger'
+import { createLogger } from 'redux-logger';
 
 export const history = createBrowserHistory();
 
 export default function configureStore(initialState = {}) {
+  
+
+  const logger = createLogger({
+    collapsed: true,
+  });
+
   const store = createStore(
     rootReducer(history), // root reducer with router state
     initialState,

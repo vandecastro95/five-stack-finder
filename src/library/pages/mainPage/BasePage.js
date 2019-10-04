@@ -1,25 +1,21 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper'
 
 const styles = (theme) => ({
   root: {
-    // paddingTop: theme.spacing.unit * 2,
-    paddingLeft: theme.spacing(3),
-    paddingRight: theme.spacing(3),
-    paddingBottom: theme.spacing(10),
+
   },
 });
 
-const BasePage = props => {
+const PlayerStatBox = props => {
   const { classes } = props;
+
   return (
-    <div className={classes.root}>
-      <Grid container spacing={4}>
-        {props.children}
-      </Grid>
-    </div>
+    <Paper elevation={10} square className={classes.root}>
+        
+    </Paper>
   );
 };
 
-export default withStyles(styles)(BasePage);
+export default withStyles(styles)(PlayerStatBox);
