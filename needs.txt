@@ -1,0 +1,15 @@
+redux
+
+1. add player
+2. add fivestack
+3. add player to fivestack
+4. remove player from fivestack
+5. get player by id
+6. get all fivestacks
+7. edit fivestack?
+
+front end
+1. list fivestacks
+2. list players per fivestack
+3. player joins fivestack
+4. player leaves fivestack

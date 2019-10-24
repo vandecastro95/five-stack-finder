@@ -14,14 +14,15 @@ const styles = (theme) => ({
 });
 
 const FiveStackList = props => {
-  const { classes } = props;
+  const { classes, fiveStack } = props;
+  const { fiveStackList, fiveStackListIds } = fiveStack;
 
   return (
     <div  className={classes.root}>
         
         
         <Paper elevation={5} square className={classes.FiveStackList}>
-        
+          {console.log(fiveStackList[fiveStackListIds[0]])}
         </Paper>
     </div>    
   );

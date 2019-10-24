@@ -6,7 +6,6 @@ import Box from '@material-ui/core/Box'
 
 const styles = (theme) => ({
   root: {
-      background: '#CF6679',
       height: '130px',
   },
   heroContainer: {

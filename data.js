@@ -2,27 +2,22 @@ const playerData =
 {
 "tracked_until":"1572117866",
 "solo_competitive_rank":3373,
-"profile":{
-"account_id":187379213,
-"personaname":"Kingpin",
-"name":null,
-"plus":true,
-"cheese":0,
-"steamid":"76561198147644941",
-"avatar":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a1/a1c9da8a0fa55ca94d75317dedc19cbfcf5cc816.jpg",
-"avatarmedium":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a1/a1c9da8a0fa55ca94d75317dedc19cbfcf5cc816_medium.jpg",
-"avatarfull":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a1/a1c9da8a0fa55ca94d75317dedc19cbfcf5cc816_full.jpg",
-"profileurl":"https://steamcommunity.com/profiles/76561198147644941/",
-"last_login":"2019-09-26T19:01:58.447Z",
-"loccountrycode":null,
-"is_contributor":false
-},
-"competitive_rank":3789,
-"rank_tier":54,
-"mmr_estimate":{
-"estimate":3701
-},
-"leaderboard_rank":null
+    "profile":{
+    "account_id":187379213,
+    "personaname":"Kingpin",
+    "steamid":"76561198147644941",
+    "avatar":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a1/a1c9da8a0fa55ca94d75317dedc19cbfcf5cc816.jpg",
+    "avatarmedium":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a1/a1c9da8a0fa55ca94d75317dedc19cbfcf5cc816_medium.jpg",
+    "avatarfull":"https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/a1/a1c9da8a0fa55ca94d75317dedc19cbfcf5cc816_full.jpg",
+    "profileurl":"https://steamcommunity.com/profiles/76561198147644941/",
+    "last_login":"2019-09-26T19:01:58.447Z",
+    },
+    "competitive_rank":3789,
+    "rank_tier":54,
+    "mmr_estimate":{
+        "estimate":3701
+    },
+    "leaderboard_rank":null
 }
 
 const heroes = [
