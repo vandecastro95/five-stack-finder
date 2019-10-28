@@ -31,6 +31,7 @@ const styles = () => ({
   },
   avatarBox: {
     marginLeft: 'auto',
+    marginBottom: 'auto',
   },
   Filter: {
   }
@@ -53,7 +54,7 @@ const HomePage = props => {
             <MainPageHero />
           </Grid>
 
-          <Grid item xs={12} md={10} lg={6} className={classes.row2} container spacing={1} alignItems='center'>
+          <Grid item xs={12} md={10} lg={10} className={classes.row2} container spacing={1} alignItems='center'>
               <Grid item xs={12} className={classes.Filter}>
                 <Filter />
               </Grid>

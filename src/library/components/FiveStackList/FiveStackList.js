@@ -1,15 +1,23 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper'
+import { Typography } from '@material-ui/core';
 
 const styles = (theme) => ({
   root: {
     
   },
   FiveStackList: {
-      
-    height: '558px',
+    height: 'auto',
     background: '#1A1A1C',
+  },
+  day: {
+    color: "#fff",
+    margin: '1px 10px',
+    lineHeight: '1.6',
+    fontSize: '13px',
+    wordSpacing: '.1em',
+    fontWeight: '600'
   }
 });
 
@@ -20,7 +28,9 @@ const FiveStackList = props => {
   return (
     <div  className={classes.root}>
         
-        
+        <Typography className={classes.day}>
+          FRIDAY, OCTOBER 29
+        </Typography>
         <Paper elevation={5} square className={classes.FiveStackList}>
           {console.log(fiveStackList[fiveStackListIds[0]])}
         </Paper>
