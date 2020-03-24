@@ -1,6 +1,6 @@
 html, body {
-    background: #1A1A1C;
+    background: #263238;
     min-height: 100vh;
-    overflow: hidden;
+    margin: 0;
     font-family: 'Roboto', Arial, sans-serif;
 }

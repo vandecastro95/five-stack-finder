@@ -6,10 +6,11 @@ import Paper from '@material-ui/core/Paper';
 
 const styles = (theme) => ({
     root: {
-      backgroundColor: '#1A1A1C',
+        backgroundColor: '#102027',
       height: 'auto',
       paddingTop: '2px',
-      width: '100%'
+        width: '100%',
+      color: '#ffffff'
     },
     container: {
         width: '80%',
@@ -21,11 +22,11 @@ const styles = (theme) => ({
     Header: {
         fontSize: '1.5rem',
         fontStyle: '',
-        color: 'white',
+        color: '#ffffff',
         paddingLeft: '2rem',
     },
     headerNav: {
-        color: 'white',
+        color: '#ffffff',
         display: 'flex',
     },
     Nav: {
@@ -38,7 +39,6 @@ const Header = (props) => {
 
     return (
     <Paper
-    elevation={3} 
     square 
     className={classes.root}>
             <Grid 
